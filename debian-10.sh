@@ -15,3 +15,8 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 sudo groupadd docker
 sudo gpasswd -a $USER docker
 newgrp docker 
+
+# zsh + oh-my-zsh
+sudo apt-get install -y zsh
+zsh --version
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
