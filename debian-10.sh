@@ -1,3 +1,10 @@
+#! /bin/bash
+
+# checkout ansible
+
+# set a password
+sudo passwd $USER
+
 # install utilities
 sudo apt-get update
 sudo apt-get install -y git git-lfs htop atop mc wget zip jq python3-pip python docker
